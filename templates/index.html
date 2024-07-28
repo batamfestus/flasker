@@ -1,0 +1,12 @@
+<h1>hello world</h1>
+<p>welcome to the home page</p>
+
+<h1>Fruits List</h1>
+{% for i in fruit %}
+{% if i == 41 %}
+{{ i + 100 }}
+{% else %}
+{{ i }}
+{% endif %}
+{{ i }} <br>
+{% endfor %}
